@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+
+.app {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: white;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+#error-message {
+    color: #ff5a5a;
+}
+
+.note-card {
+    background: #222;
+    border: 1px solid #444;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.note-card.completed {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+.note-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}

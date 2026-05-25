@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app">
+
+        <h1>Todo / Notes App</h1>
+
+        <form id="note-form">
+            <input 
+                type="text" 
+                id="note-input" 
+                placeholder="Write a task or note..."
+            >
+
+            <button type="submit">Add</button>
+        </form>
+
+        <p id="error-message"></p>
+
+        <section>
+            <h2>Your Notes</h2>
+
+            <div id="notes-container">
+                <!-- Notes will come here from JavaScript -->
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
